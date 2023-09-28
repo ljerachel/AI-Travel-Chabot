@@ -1,0 +1,38 @@
+{ "intents":  [
+    {
+                    "tag": "TravelList",
+                    "patterns": [
+                          "I want to plan my travel",
+                          "Planning travel ",
+                          "Travel Planning", 
+                          "Add destinations to my list",
+                          "add a destination to my travel list"
+
+                    ],
+                    "responses": [
+                         "Sure! Please tell me your destination?"
+                    ]
+              },
+              
+              {
+                    "tag": "deleteTrip",
+                    "patterns": [
+                          "delete from my list", 
+                          "remove from my list ",
+                          "get rid from my list "
+                    ],
+                    "responses": [
+                         "<DESTINATION> has been removed from your travel list"
+                    ]
+              }, 
+              {
+                  "tag": "fetchTrip",
+                  "patterns": [
+                        "i want to look at my travel list",
+                        "show me my travel list"
+                  ],
+                  "responses": [
+                       "there you go! \n <TRAVEL LIST>"
+                  ]
+            }
+  ]}

@@ -1,0 +1,141 @@
+{
+      "intents": [
+            {
+                  "tag": "Greeting",
+                  "patterns": [
+                        "Hi","Hii","Hey","Hey there", "Heyy",
+                        "Hi there",
+                        "Hola",
+                        "Hello",
+                        "Hello there",
+                        "Hya",
+                        "Hya there"
+                  ],
+                  "responses": [
+                        "Hello there! What is your name?",
+                        "Hi! Can I have your name please?",
+                        "Hey!! May I know your name please?",
+                        "Hello! What is your name?",
+                        "Hi there! How may I call you?",
+                        "Hey!! Can I have your name please?"
+
+                  ]
+            },
+            {
+                  "tag": "NameResponse",
+                  "patterns": [
+                        "My name is Adam",
+                        "This is Adam",
+                        "I am Adam",
+                        "I am adam",
+                        "It is Adam",
+                        "i am adam",
+                        "My name is Bella",
+                        "This is Bella",
+                        "I am Bella",
+                        "It is Bella"
+                  ],
+                  "responses": [
+                        "Great! Hi <HUMAN>! How can I help?",
+                        "Good! Hi <HUMAN>, how can I help you?",
+                        "Cool! Hello <HUMAN>, what can I do for you?",
+                        "OK! Hola <HUMAN>, how can I help you?",
+                        "OK! hi <HUMAN>, what can I do for you?"
+                  ]
+            },
+            {
+                  "tag": "Greeting",
+                  "patterns": [
+                        "How are you?",
+                        "Hi how are you?",
+                        "Hello how are you?",
+                        "Hola how are you?",
+                        "How are you doing?",
+                        "Hope you are doing well?",
+                        "Hello hope you are doing well?"
+                  ],
+                  "responses": [
+                        "Hello, I am great, how are you? ",
+                        "Hello, how are you? I am great thanks! ",
+                        "Hello, I am good thank you, how are you? ",
+                        "Hi, I am great, how are you? ",
+                        "Hi, how are you? I am great thanks! ",
+                        "Hi, I am good thank you, how are you? ",
+                        "Hi, good thank you, how are you? "
+                  ]
+            },
+            {
+                  "tag": "GreetingResponse",
+                  "patterns": [
+                        "Good thanks! My name is Adam",
+                        "Good thanks! This is Adam",
+                        "Good thanks! I am Adam",
+                        "Good thanks! It is Adam",
+                        "Great thanks! My name is Bella",
+                        "Great thanks! This is Bella",
+                        "Great thanks! I am Bella",
+                        "Great thanks! It is Bella"
+                  ],
+                  "responses": [
+                        "Great! Hi <HUMAN>! How can I help?",
+                        "Good! Hi <HUMAN>, how can I help you?",
+                        "Cool! Hello <HUMAN>, what can I do for you?",
+                        "OK! Hola <HUMAN>, how can I help you?",
+                        "OK! hi <HUMAN>, what can I do for you?"
+                  ]
+                 
+            },
+            {
+                  "tag": "NameQuery",
+                  "patterns": [
+                        "What is your name?",
+                        "What could I call you?",
+                        "What can I call you?",
+                        "What do your friends call you?",
+                        "Who are you?",
+                        "Tell me your name?"
+                  ],
+                  "responses": [
+                        "You can call me Travelo",
+                        "You may call me Travelo",
+                        "Call me Travelo",
+                        "I am Travelo"
+                  ]
+            },
+            
+            {
+                  "tag": "Thanks",
+                  "patterns": [
+                        "OK thank you",
+                        "OK thanks",
+                        "OK",
+                        "Thanks",
+                        "Thank you",
+                        "That's helpful"
+                  ],
+                  "responses": [
+                        "No problem!",
+                        "Happy to help!",
+                        "Any time!",
+                        "My pleasure"
+                  ]
+            },
+           
+           
+            {
+                  "tag": "GoodBye",
+                  "patterns": [
+                        "Bye",
+                        "Adios",
+                        "See you later",
+                        "Goodbye"
+                  ],
+                  "responses": [
+                        "See you later",
+                        "Have a nice day",
+                        "Bye! Come back again soon."
+                  ]
+            }
+      
+      ]
+}

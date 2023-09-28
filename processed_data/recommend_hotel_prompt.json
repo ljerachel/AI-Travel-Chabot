@@ -1,0 +1,20 @@
+
+ {
+    "intents": [
+            { 
+                  "tag": "LookForHotel",
+                  "patterns": [
+                         "I want to look for a hotel",
+                         "I wish to find a hotel",
+                         "give me a hotel recommendation", 
+                         "recommend me a good hotel", 
+                         "recommend me a nice hotel"
+                    ],
+                  "responses": [
+                         "Absolutely!! :D Please give me the location that you wish to travel to"
+                    ]
+              }
+            
+            ]
+        }
+            

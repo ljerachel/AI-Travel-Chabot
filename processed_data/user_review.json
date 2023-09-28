@@ -1,0 +1,25 @@
+{ "intents":  [
+    {
+                    "tag": "UserReview",
+                    "patterns": [
+                          "I want to review a hotel",
+                          "review a hotel", 
+                         "I wish to give a review on a hotel"
+                    ],
+                    "responses": [
+                         "Sure! What is the name of the hotel that you'd like to give a review on"
+                    ]
+              },
+              
+              {
+                    "tag": "deleteReview",
+                    "patterns": [
+                          "delete my review", 
+                          "remove my review",
+                          "get rid of review"
+                    ],
+                    "responses": [
+                         "Review has been deleted!"
+                    ]
+              }
+  ]}
